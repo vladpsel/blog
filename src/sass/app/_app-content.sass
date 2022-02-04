@@ -1,0 +1,99 @@
+$main-color: #222076
+$black-color: #383838
+$grey-color: #868686
+
+body
+  color: $black-color
+
+.wrapper
+  max-width: 62.125rem
+
+.mb-18
+  margin-bottom: 1.125rem
+
+section
+  justify-content: flex-start
+
+.img-wrp
+  a
+    display: flex
+
+// Lets go
+.header
+  padding: 1.563rem 0
+
+.header__nav
+  a
+    font: normal 900 .75em/1.2 $main-font
+    text-transform: uppercase
+    padding: .313rem 1.2rem
+    color: $grey-color
+    +animate
+    &:hover
+      color: $main-color
+
+.top-panel,
+.lang-list
+  display: flex
+  flex-wrap: nowrap
+  align-items: center
+  padding: 0 1rem
+  margin-bottom: 1rem
+
+.panel__label,
+.panel__select,
+.lang-list a
+  font: normal 900 .875em/2 $main-font
+
+.panel__select
+  padding: 0 .5rem
+  color: $grey-color
+  option
+    color: #000
+
+.lang-list
+  display: flex
+  display: none
+  a
+    padding: .5rem 1rem
+
+.post-list
+  > li
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+    margin-bottom: 1.2rem
+  img
+    border-radius: .625rem
+  .title-date
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    width: 100%
+  .title
+    padding-right: 1rem
+    font: normal 700 1.25rem/1.5 $main-font
+  p
+    font-size: .875em
+    width: 100%
+    max-height: 45px
+    overflow: hidden
+  .date,
+  .tag-list
+    font: normal 900 .75em/2 $main-font
+    color: $grey-color
+
+.post-content
+  display: flex
+  flex-flow: column wrap
+  justify-content: space-between
+  align-items: flex-start
+
+.tag-list
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  flex-wrap: wrap
+  > li
+    padding-right: 1rem
