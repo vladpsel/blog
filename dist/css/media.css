@@ -91,3 +91,34 @@
     font-size: 2em;
   }
 }
+@media (max-width: 680px) {
+  .top-panel,
+.post-list {
+    padding: 0;
+  }
+
+  .post-content {
+    padding: 0.5rem 0;
+  }
+
+  .footer-alt .socials,
+.footer-alt .copyrights__me,
+.footer-alt .contacts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .footer-alt .contacts a {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .copyrights {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
