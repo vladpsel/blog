@@ -1,0 +1,186 @@
+<template>
+  <header class="header">
+    <div class="wrapper">
+      <div class="flex f-center mb-18">
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="blog logo">
+        </a>
+      </div>
+      <div class="flex f-center">
+        <nav class="header__nav flex f-center">
+          <a href="#">Разработка</a>
+          <a href="#">Дизайн</a>
+          <a href="#">Лайфстайл</a>
+          <a href="#">Переводы статей</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="flex full f-center">
+    <div class="wrapper f-between">
+      <section>
+        <div class="top-panel">
+          <span class="panel__label">Сначала:</span>
+          <select class="panel__select" name="order-select">
+            <option value="date_asc">самые новые</option>
+            <option value="date_desc">самые первые</option>
+          </select>
+        </div>
+        <ul class="lang-list">
+          <li>
+            <a href="#">Uk</a>
+          </li>
+          <li>
+            <a href="#">Ru</a>
+          </li>
+          <li>
+            <a href="#">En</a>
+          </li>
+        </ul>
+
+      </section>
+      <section>
+        <ul class="post-list list full np-i">
+
+          <li>
+            <div class="img-wrp one-of-four np">
+              <a href="#">
+                <img src="img/placeholder.jpg" alt="image">
+              </a>
+            </div>
+            <div class="post-content three-of-four">
+              <div class="title-date">
+                <a href="#" class="title">Самый важный пост</a>
+                <span class="date">02.01.22</span>
+              </div>
+              <p>Мой первый пост. Самый важный пост для меня на данный момент!</p>
+              <ul class="tag-list">
+                <li>#лайфстайл</li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-wrp one-of-four np">
+              <img src="img/placeholder2.jpg" alt="image">
+            </div>
+            <div class="post-content three-of-four">
+              <div class="title-date">
+                <a href="#" class="title">Для самых джуных Docker + php + nginx + mysql</a>
+                <span class="date">02.01.22</span>
+              </div>
+              <p>Коротко про настройку окружения docker вместо класического LAMP/WAMP!</p>
+              <ul class="tag-list">
+                <li>#лайфстайл</li>
+                <li>#docker</li>
+                <li>#php</li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-wrp one-of-four np">
+              <img src="img/placeholder2.jpg" alt="image">
+            </div>
+            <div class="post-content three-of-four">
+              <div class="title-date">
+                <a href="#" class="title">Для самых джуных Docker + php + nginx + mysql</a>
+                <span class="date">02.01.22</span>
+              </div>
+              <p>Коротко про настройку окружения docker вместо класического LAMP/WAMP!</p>
+              <ul class="tag-list">
+                <li>#лайфстайл</li>
+                <li>#docker</li>
+                <li>#php</li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-wrp one-of-four np">
+              <img src="img/placeholder2.jpg" alt="image">
+            </div>
+            <div class="post-content three-of-four">
+              <div class="title-date">
+                <a href="#" class="title">Для самых джуных Docker + php + nginx + mysql</a>
+                <span class="date">02.01.22</span>
+              </div>
+              <p>Коротко про настройку окружения docker вместо класического LAMP/WAMP!</p>
+              <ul class="tag-list">
+                <li>#лайфстайл</li>
+                <li>#docker</li>
+                <li>#php</li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-wrp one-of-four np">
+              <img src="img/placeholder2.jpg" alt="image">
+            </div>
+            <div class="post-content three-of-four">
+              <div class="title-date">
+                <a href="#" class="title">Для самых джуных Docker + php + nginx + mysql</a>
+                <span class="date">02.01.22</span>
+              </div>
+              <p>Коротко про настройку окружения docker вместо класического LAMP/WAMP!</p>
+              <ul class="tag-list">
+                <li>#лайфстайл</li>
+                <li>#docker</li>
+                <li>#php</li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer footer-alt">
+    <div class="wrapper v-center">
+      <ul class="socials one-of-three">
+        <li>
+          <a href="https://www.instagram.com/ucompany.site" target="_blank" rel="noreferrer">Instagram</a>
+        </li>
+        <li>
+          <a href="https://t.me/voopsc" target="_blank" rel="noreferrer">Telegram</a>
+        </li>
+        <li>
+          <a href="https://github.com/vladpsel" target="_blank" rel="noreferrer">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/vlad-panov-726669152/" target="_blank" rel="noreferrer">
+            Linkedin
+          </a>
+        </li>
+      </ul>
+      <div class="copyrights flex one-of-three">
+        <div class="copyrights__me flex f-center v-center">
+          <span>With</span>
+          <img src="img/h.svg" alt="">
+          <span>by</span>
+          <img src="img/logo.svg" alt="">
+        </div>
+        <div class="full text-center">
+          <p>© 1996 - 2022</p>
+        </div>
+      </div>
+      <div class="contacts one-of-three">
+        <a href="mailto:vpanovwr@gmail.com">vpanovwr@gmail.com</a>
+        <a href="tel:380995628125">+380 99 562 81 25</a>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "App"
+}
+</script>
+
+<style scoped>
+
+</style>
